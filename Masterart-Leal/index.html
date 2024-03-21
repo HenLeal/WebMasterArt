@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MasterArt</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <script src="./assets/js/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>MasterArt</h1>
+        <span id="subtitulo">Discover the world of art</span>
+        <a class="botao_principal" href="#aaa">
+            <img id="icone" src="/assets/images/adrianna-geo-1rBg5YSi00c-unsplash.jpg">
+            <span>Saiba Mais</span>
+        </a>
+    </header>
+    <!-- <section id="foto_de_fundo"> -->
+    <section id="apresentacao">
+        <!-- <div class="container"> -->
+        <img id="hero2"
+            src="https://images.unsplash.com/photo-1580136579395-4bbb9ffdc4ca?q=80&w=1620&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+        <!-- <p>Conhecer a obra</p> -->
+        <!-- </div> -->
+        <div id="texto_da_obra">
+            <h2>Veja as melhores obras de artes</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dolore assumenda cum quia eligendi velit
+                similique consequatur placeat dicta sed ipsam odit non, ipsa rem ducimus suscipit. Et, tempora neque?
+            </p>
+            <a id="aaa" href="#">Conheça a obra</a>
+    </section>
+
+    <section id="secao-projeto">
+        <ul>
+            <li>
+                <div class="card">
+                    <div class="image-wrapper">
+                        <img src="/assets/images/marinheiro.jpg" alt="Desenho de um marinheiro">
+                    </div>
+                    <div class="card-text">
+                        <h2>Marinheiro</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, odit.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="card">
+                    <div class="image-wrapper">
+                        <img src="/assets/images/mulher.jpg" alt="Obra de uma mulher">
+                    </div>
+                    <div class="card-text">
+                        <h2>Mulher</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, odit.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="card">
+                    <div class="image-wrapper">
+                        <img src="/assets/images/soldado.jpg" alt="Desenho de um soldado">
+                    </div>
+                    <div class="card-text">
+                        <h2>Soldado</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, odit.</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    </div>
+
+    <section id="secao-orcamento">
+
+        <div id="background-blur"></div>
+
+        <form class="container">
+             <h2 class="titulo linha">Peça uma nova Obra</h2>
+            
+            <div class="campo linha">
+                <label for="nome-da-obra">Nome da Obra</label>
+                <input type="text" id="nome-da-obra">
+            </div>
+
+            <div class="campo">
+                <label for="autor">Autor</label>
+                <input type="text" id="autor">
+            </div>
+
+            <div class="campo">
+                <label for="ano-da-obra">Ano da Obra</label>
+                <input type="date" id="ano-da-obra">
+            </div>
+
+            <div class="campo linha">
+
+                <label for="e-free-license">É Free License?</label>
+                <div id="radio">
+
+                    <input name="free-license" type="radio" id="e-free-license-sim">
+                    <label for="e-free-license-sim">Sim, pode ser utilizado</label>
+
+
+                    <input name="free-license" type="radio" id="e-free-license-nao">
+                    <label for="e-free-license-nao">Não, precisa pagar</label>
+                </div>
+            </div>
+
+
+            <div class="campo linha">
+
+                <label for="link-da-obra">Link da obra</label>
+                <input type="text" id="link-da-obra">
+            </div>
+
+            <div class="campo linha">
+
+                <label for="descricao">Descrição oficial da Obra</label>
+                <input id="descricao" type="text">
+            </div>
+<output id="preco">O nome da obra aparece aqui</output>
+
+        </form>
+
+    </section>
+</body>
+
+</html>
